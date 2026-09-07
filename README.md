@@ -1,4 +1,4 @@
-# 💊 PharmaLens
+# PharmaLens
 
 > An AI-powered medicine information and pharmacy discovery agent built using the ReAct architecture.
 
@@ -8,9 +8,9 @@ The project combines an **LLM, three tools, ReAct reasoning, and long-term memor
 
 ---
 
-## 🚀 Key Components
+## Key Components
 
-### 🤖 LLM
+### LLM
 
 PharmaLens uses:
 
@@ -22,11 +22,11 @@ The LLM acts as the decision-making component of the agent. It determines which 
 
 ---
 
-## 🛠️ Three Tools
+## Three Tools
 
 PharmaLens provides three main tools:
 
-### 1. 🔎 Medical Information Search
+### 1. Medical Information Search
 
 **Sources:**
 - RxNorm
@@ -47,7 +47,7 @@ Agent:
 → Final Answer
 ```
 
-### 2. 💊 Pharmacy Search
+### 2. Pharmacy Search
 
 **Technology:**
 - Tavily Search API
@@ -70,7 +70,7 @@ Agent:
 
 > Pharmacy search results are web search results and are not guaranteed to represent real-time stock. Users should verify availability directly with the pharmacy.
 
-### 3. ⏰ Medication Reminder
+### 3. Medication Reminder
 
 The reminder tool allows users to create, view, and cancel medication reminders.
 
@@ -95,7 +95,7 @@ Agent:
 
 ---
 
-## 🧠 Long-Term Memory
+## Long-Term Memory
 
 PharmaLens implements long-term persistent memory using JSON storage.
 
@@ -151,7 +151,7 @@ Memory Architecture
 ```
 ---
 
-## 🔄 ReAct Architecture
+## ReAct Architecture
 
 PharmaLens follows a ReAct-style agent workflow:
 
@@ -234,7 +234,7 @@ Add the following:
 
 ---
 
-## ▶️ Running PharmaLens
+## Running PharmaLens
 
 All commands below should be executed from: `backend/` with the virtual environment activated.
 
@@ -266,7 +266,7 @@ You should see:
 
 The scheduler checks stored reminders and triggers them when their scheduled time is reached.
 
-### 🧪 Testing
+### Testing
 - Test Medical Search
 `python tests/test_medical_search.py`
 
@@ -281,7 +281,7 @@ The scheduler checks stored reminders and triggers them when their scheduled tim
 
 ---
 
-### ⚠️ Disclaimer
+### Disclaimer
 
 PharmaLens is an educational project.
 
