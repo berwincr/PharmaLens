@@ -198,7 +198,7 @@ The agent can select the appropriate tool based on the user's request.
 | Version Control | Git + GitHub         |
 
 ---
-## ⚙️ Setup
+## Setup
 1. Clone the repository `git clone https://github.com/berwincr/PharmaLens.git`
 
 Move into the project: `cd PharmaLens`
@@ -216,7 +216,7 @@ You should see: `(venv)` in your terminal.
 
 ---
 
-## 🔐 Environment Variables
+## Environment Variables
 
 Create a file named: `backend/.env`
 
